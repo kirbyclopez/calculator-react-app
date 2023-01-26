@@ -17,7 +17,7 @@ const CalculatorDisplay: React.FC<IProps> = ({ ...divProps }) => {
   useEffect(() => {
     if (ref.current) {
       const actualScale = 320 / ref.current.offsetWidth;
-      setScale(actualScale > 1 ? 1 : actualScale);
+      if (scale !== actualScale) setScale(actualScale > 1 ? 1 : actualScale);
     }
   }, [display]);
 
