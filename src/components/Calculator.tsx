@@ -230,7 +230,7 @@ const Calculator: React.FC<IProps> = ({ ...divProps }) => {
               <CalculatorKey
                 color="dark"
                 label="0"
-                className="w-[150px] pl-8 text-left"
+                className="!w-[150px] pl-8 text-left"
                 onClick={() => {
                   handleInputDigit("0");
                 }}

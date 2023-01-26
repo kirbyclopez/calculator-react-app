@@ -19,12 +19,12 @@ const CalculatorDisplay: React.FC<IProps> = ({ ...divProps }) => {
       const actualScale = 320 / ref.current.offsetWidth;
       if (scale !== actualScale) setScale(actualScale > 1 ? 1 : actualScale);
     }
-  }, [display]);
+  }, [display, scale]);
 
   const numberWithCommas = (number: string) => {
     let values = number.split(".");
 
-    values[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    values[0] = values[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
     return values.length > 1 ? `${values[0]}.${values[1]}` : values[0];
   };
