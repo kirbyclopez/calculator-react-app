@@ -6,7 +6,7 @@ This app is a basic calculator that allows the user to perform basic arithmetic 
 
 ## Live Preview
 
-You can try this application at [http://calculator-react.klcodes.com](http://calculator-react.klcodes.com)
+You can try this application at [https://calculator-react.klcodes.com](https://calculator-react.klcodes.com)
 
 <br>
 
