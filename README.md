@@ -1,4 +1,4 @@
-# Calculator App (Yondu)
+# Calculator App
 
 This app is a basic calculator that allows the user to perform basic arithmetic operations.
 
